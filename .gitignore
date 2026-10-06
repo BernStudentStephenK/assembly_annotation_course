@@ -1,0 +1,37 @@
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Genome assemblies
+*.fasta
+*.fa
+*.fna
+
+# Alignment files
+*.bam
+*.bai
+*.sam
+
+# Assembly graphs
+*.gfa
+*.gv
+
+# Meryl databases
+*.meryl
+*.merylData
+*.merylIndex
+
+# Large / temporary outputs
+output/
+results/raw/
+tmp/
+scratch/
+
+logs/
+# Logs
+*.log
+
+# Slurm
+slurm-*.out
